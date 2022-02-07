@@ -7,7 +7,7 @@ jobs:
   call-workflow-passing-data:
     uses: gforsmo/BI-DevOps/.github/workflows/ci.yml@main
     with:
-      workspacename: 'DevOpsConf2021'
+      workspacename: 'GitHub Action Power BI'
       path: './reports'
     secrets:
       clientid: ${{ secrets.CLIENTID }}
